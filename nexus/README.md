@@ -24,6 +24,10 @@ Project Tree:
             - "\_\_init__.py"
             - "routes.py"
             
+        - login (Login Blueprint)
+            - "\_\_init__.py"
+            - "routes.py"    
+            
         - static (All project static files)
             - b10override.css (Used to override Bootstrap and create custom class)
             - *Various*
@@ -33,6 +37,12 @@ Project Tree:
             - child_master_template (A Template for all html extending the master_template)
             - home
                 - home.html
+            - login
+                - login.html    
+          
+        - users (User Blueprint)
+            - "\_\_init__.py"
+            - "routes.py"    
                 
         - .gitignore ()
         
@@ -42,11 +52,19 @@ Project Tree:
         
         - Schedule.txt (File to log Scheduled Tasks)
         
+        - scratches(A collection of snippets related to this project)
+        
         - "run.py" (View doc-header for more info)
             
     - venv (Virtual Environment for this machine)
 
-    
+ Github init
+ 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/b10dev/nexus.git
+git push -u origin master   
 
     
 
